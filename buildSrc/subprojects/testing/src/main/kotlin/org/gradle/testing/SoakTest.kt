@@ -14,10 +14,9 @@
  * limitations under the License.
  */
 
-package org.gradle.testing;
+package org.gradle.testing
 
 /**
- * A test that verifies Gradle can be used with popular third party plugins.
+ * A test aimed at verifying behavior under heavy load.
  */
-public class SmokeTest extends DistributionTest {
-}
+open class SoakTest : DistributionTest()
